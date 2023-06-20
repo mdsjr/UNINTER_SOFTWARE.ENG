@@ -1,0 +1,19 @@
+<div class="tab-content">
+  <div id="pago" class="container tab-pane active"><br>
+    <h3>FATURAS PAGAS</h3>
+    <table class="table table-striped">
+    <thead>  
+      <tr><td>Fornecedor</td><td>Valor</td><td>DT pagto</td></tr>
+      <tr><td>Empresa de Alcool</td><td>2.560,00</td><td>22/06/2020</td></tr>
+      <tr><td>Transporte SA</td><td>1.680,00</td><td>16/11/2020</td></tr>
+    </thead> 
+    </table>
+  </div>
+  <div id="aberto" class="container tab-pane fade"><br>
+    <h3>FATURAS EM ABERTO</h3>
+    <table class="table table-striped">
+      <tr><td>Fornecedor</td><td>Valor</td><td>DT vencto</td></tr>
+      <tr><td>Industria de Cimentos</td><td>8.150,00</td><td>14/03/2021</td></tr>
+    </table>
+  </div>
+</div>

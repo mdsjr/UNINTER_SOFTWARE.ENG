@@ -1,0 +1,117 @@
+Build at: 2022-05-18T02:36:43.767Z - Hash: 120a0bcf960ca900 - Time: 24687ms
+
+./src/app/app.component.ts:4:0-36 - Error: Module not found: Error: Can't resolve './agendas' in 'C:\Projetos\Fatura\src\app'
+
+./src/app/app.component.ts:8:29-36 - Error: export 'faturas' (imported as 'faturas') was not found in './faturas' (possible exports: fatura)
+
+Error: src/app/app.component.html:79:1 - error NG5002: Unexpected closing tag "html". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+79 </html>
+   ~~~~~~~
+
+  src/app/app.component.ts:7:16
+    7   templateUrl: './app.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component AppComponent.
+
+
+Error: src/app/app.component.ts:2:10 - error TS2724: '"./faturas"' has no exported member named 'faturas'. Did you mean 'fatura'?
+
+2 import { faturas } from './faturas';
+           ~~~~~~~
+
+  src/app/faturas.ts:1:14
+    1 export const fatura = [
+                   ~~~~~~
+    'fatura' is declared here.
+
+
+Error: src/app/app.component.ts:2:10 - error TS2724: '"./faturas"' has no exported member named 'faturas'. Did you mean 'fatura'?
+
+2 import { faturas } from './faturas';
+           ~~~~~~~
+
+  src/app/faturas.ts:1:14
+    1 export const fatura = [
+                   ~~~~~~
+    'fatura' is declared here.
+
+
+Error: src/app/app.component.ts:3:25 - error TS2307: Cannot find module './agendas' or its corresponding type declarations.
+
+3 import { agendas } from './agendas';
+                          ~~~~~~~~~~~
+
+
+Error: src/app/faturas.ts:6:9 - error TS1005: ',' expected.
+
+6         dt_vencto:"21/06/2020"
+          ~~~~~~~~~
+
+
+Error: src/app/faturas.ts:7:9 - error TS1005: ',' expected.
+
+7         dt_pgto:"22/06/2020"
+          ~~~~~~~
+
+
+Error: src/app/faturas.ts:8:9 - error TS1005: ',' expected.
+
+8         nf: 145
+          ~~
+
+
+Error: src/app/faturas.ts:15:9 - error TS1005: ',' expected.
+
+15         dt_pgto:"16/11/2020"
+           ~~~~~~~
+
+
+Error: src/app/faturas.ts:16:9 - error TS1005: ',' expected.
+
+16         nf: 1024
+           ~~
+
+
+Error: src/app/faturas.ts:23:9 - error TS1005: ',' expected.
+
+23         dt_pgto:""
+           ~~~~~~~
+
+
+Error: src/app/faturas.ts:24:9 - error TS1005: ',' expected.
+
+24         nf: 32
+           ~~
+
+
+Error: src/app/faturas.ts:31:9 - error TS1005: ',' expected.
+
+31         dt_pgto:""
+           ~~~~~~~
+
+
+Error: src/app/faturas.ts:32:9 - error TS1005: ',' expected.
+
+32         nf: 233
+           ~~
+
+
+Error: src/app/faturas.ts:39:9 - error TS1005: ',' expected.
+
+39         dt_pgto:"15/07/2020"
+           ~~~~~~~
+
+
+Error: src/app/faturas.ts:40:9 - error TS1005: ',' expected.
+
+40         nf: 66
+           ~~
+
+
+
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+× Failed to compile.

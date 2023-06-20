@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"> <!--O atributo lang especifica qual idioma é usado 
+    para escrever o conteúdo-->
+<head>
+<!--META = Ele nada mais é do que um elemento capaz de definir qualquer tipo 
+de informação, 
+mais conhecidas como metadados — os quais não podem ser definidos 
+por qualquer outro elemento HTML.-->
+    <meta charset="UTF-8">
+<!--qual é o formato de codificação de caracteres utilizado naquele 
+ documento. Em outras palavras, essa tag serve para que os navegadores
+saibam como devem renderizar os textos incluídos em uma página 
+específica.-->    
+    <meta http-equiv="X-UA-Compatible"     content="IE=edge">
+<!--Esta meta é exclusiva para Internet Explorer (introduzido no IE8), 
+ela pode configurar a página para ser renderizada como em outra 
+versão do Internet Explorer.-->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ... irá garantir que, após a abertura, o layout será exibido 
+corretamente em escala 1:1. Nenhum zoom será aplicado. 
+Você pode ir mais longe e evitar qualquer zoom pelo usuário: -->    
+    <title>Formulário</title>
+<head>
+    <body>
+        <form>
+            <h1>Opções de pesquisa</h1>
+            <select  required>
+                <!-- retirar multiple-->
+                <option value="endereco">Endereço</option>
+                <option value="fone">Telefone</option>
+                <!-- editar TELEFONE-->
+                <option value="email">E-mail</option>
+            </select>
+            <h1>Comentários sobre o serviço:</h1>
+            <textarea rows="5" cols="20" rows="100" readonly>
+                
+                Texto fornecido pelo cliente.</textarea>
+                <!-- retirar o readonly-->
+        </form>
+    </body>
+</head>    

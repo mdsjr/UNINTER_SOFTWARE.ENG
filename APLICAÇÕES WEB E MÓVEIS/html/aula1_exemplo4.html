@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title> 
+<head>
+    <body>
+        <form>
+            <h1>Opções de pesquisa</h1>
+            <select required>
+<!--O requiredatributo é um atributo booleano.
+Quando presente, especifica que o usuário deve 
+selecionar um valor antes de enviar o formulário.-->                
+                <option value="endereco">Entereço</option>
+                <option value="fone">Telefone</option>
+                <option value="email">E-mail</option>
+                <option value="razao">Razão Social</option>
+            </select>
+            <h1>Comentáios sobre o serviço: </h1>
+            <textarea rows="5" cols="20" rows="100" readonly>
+                Texto fornecido pelo cliente
+            </textarea>
+        </form>
+    </body>
+</head>    

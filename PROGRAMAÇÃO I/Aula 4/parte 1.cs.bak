@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aula4
+{
+     class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Aula Prática de C# 4!");
+            Console.WriteLine("----------------------------------------");
+
+
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("Treads");
+            Console.WriteLine("----------------------------------------");
+
+            ThreadPing exercicio1 = new ThreadPing();
+            exercicio1.StartPing();
+        }
+    }
+}
