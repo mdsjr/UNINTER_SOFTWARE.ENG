@@ -12,6 +12,7 @@ def fatorial_iterativo(n):
     
 print(fatorial_iterativo(5))
 
+
 """"
 def fatorial_iterativo(n): - Aqui estamos definindo uma função chamada "fatorial_iterativo" que recebe um número "n" como entrada. Essa função calcula o fatorial desse número.
 
